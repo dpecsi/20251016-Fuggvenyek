@@ -1,1 +1,3 @@
-asd
+
+
+szöveg = input("Kérek egy szöveget: ")
