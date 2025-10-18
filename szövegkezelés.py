@@ -1,7 +1,9 @@
 
 szöveg_felhasználótól = input("Kérek egy szöveget: ")
 
-if(len(szöveg_felhasználótól) > 0):
+szöveg_hossza = len(szöveg_felhasználótól)
+
+if(szöveg_hossza > 0):
     előtét = "Ezt írtad be: "
     végleges_szöveg = előtét + szöveg_felhasználótól
 
@@ -10,8 +12,6 @@ if(len(szöveg_felhasználótól) > 0):
     utolsó_betű = szöveg_felhasználótól[-1]
 
     print(f"Utolsó betű: {utolsó_betű}")
-
-    szöveg_hossza = len(szöveg_felhasználótól)
 
     print(f"Milyen hosszú a szöveg: {szöveg_hossza}")
     print(f"Utolsó betű: {szöveg_felhasználótól[szöveg_hossza-1]}")
