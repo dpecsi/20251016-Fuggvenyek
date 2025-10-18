@@ -1,7 +1,4 @@
 
-
-szöveg_felhasználótól = ""
-
 szöveg_felhasználótól = input("Kérek egy szöveget: ")
 
 if(len(szöveg_felhasználótól) > 0):
